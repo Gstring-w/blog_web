@@ -1,0 +1,21 @@
+.leftContent {
+  position: fixed;
+  flex-shrink: 20%;
+  top: 65px;
+  left: 8vw;
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  &-content {
+    width: 100%;
+    background-color: #fff;
+    margin-top: 25px;
+    margin-right: 10px;
+    border: 1px solid rgb(238, 237, 237);
+  }
+}
+@media screen and (max-width: 600px) {
+  .leftContent {
+    display: none;
+  }
+}

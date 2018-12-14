@@ -1,0 +1,16 @@
+@import "~antd/dist/antd.css";
+html,
+body {
+  background-color: rgb(244, 245, 245);
+  padding: 0;
+  margin: 0;
+}
+.App {
+  &-Body {
+    margin-top: 60px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    z-index: 1;
+  }
+}
