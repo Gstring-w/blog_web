@@ -1,27 +1,11 @@
 import React, { Component } from "react";
-import { Menu, Icon } from "antd";
+import MyMenu from "../../public/menu";
+
 export default class NavWeb extends Component {
   render() {
     return (
       <div>
-        <Menu mode="vertical" defaultSelectedKeys={["1"]}>
-          <Menu.Item key="1">
-            <Icon type="home" />
-            首页
-          </Menu.Item>
-          <Menu.Item key="2">
-            <Icon type="home" />
-            首页
-          </Menu.Item>
-          <Menu.Item key="3">
-            <Icon type="home" />
-            首页
-          </Menu.Item>
-          <Menu.Item key="4">
-            <Icon type="home" />
-            首页
-          </Menu.Item>
-        </Menu>
+        <MyMenu />
       </div>
     );
   }

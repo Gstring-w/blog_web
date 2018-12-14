@@ -3,6 +3,7 @@
   width: 80%;
   flex-shrink: 80%;
   &-content {
+    margin-top: 30px;
     width: 80%;
     background-color: #fff;
     border: 1px solid rgb(238, 237, 237);
@@ -10,7 +11,12 @@
   }
 }
 @media screen and (max-width: 600px) {
+  .rightContent {
+    width: 100%;
+  }
+
   .rightContent-content {
-    margin-left: 0;
+    margin: 0 auto;
+    width: 90%;
   }
 }
