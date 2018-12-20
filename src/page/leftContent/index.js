@@ -3,7 +3,6 @@ import "./index.scss";
 import NavWeb from "../../component/web/NavWeb";
 export class leftContent extends Component {
   render() {
-    console.log(NavWeb);
     return (
       <div className="leftContent">
         <div className="leftContent-content">

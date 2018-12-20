@@ -14,6 +14,10 @@
     height: 60px;
     margin: 0 auto;
   }
+  &-loginBtn{
+    position: fixed;
+    right: 10vw;
+  }
 }
 .header-isShow {
   display: none;

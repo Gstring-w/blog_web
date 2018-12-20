@@ -17,7 +17,8 @@
     display: inline-block;
     text-align: center;
     font-size: 30px;
-    color: #aaa;
+    font-weight: 700;
+    color: #1890ff;
   }
   &-wrap {
     width: 30px;
@@ -29,7 +30,7 @@
     overflow: hidden;
     font-size: 8px;
     line-height: 10px;
-    color: #aaa;
+    color: #1890ff;
     animation: move 10s linear infinite;
   }
   @keyframes move {

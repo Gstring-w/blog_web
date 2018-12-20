@@ -1,0 +1,15 @@
+.footerControl{
+    margin-top: 10px;
+    display: flex;
+    width: 80%;
+    .icon{
+        margin-right:4px; 
+        font-size: 16px;
+        padding: 10px;
+        cursor: pointer;
+    }
+    .icon > span{
+        font-size: 10px;
+        margin-left: 1px;
+    }
+}
