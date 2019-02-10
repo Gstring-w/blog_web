@@ -4,7 +4,7 @@ import MyMenu from "../../public/menu";
 export default class NavWeb extends Component {
   render() {
     return (
-      <div>
+      <div className='wrapper'>
         <MyMenu />
       </div>
     );

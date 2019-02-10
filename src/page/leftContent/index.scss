@@ -4,18 +4,47 @@
   top: 65px;
   left: 8vw;
   width: 20%;
+  height: 70%;
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  justify-content: space-between;
+  .wrapper{
+    box-shadow: 1px 1px 5px 2px #ccc;
+  }
   &-content {
-    width: 100%;
+    width: 80%;
     background-color: #fff;
     margin-top: 25px;
     margin-right: 10px;
     border: 1px solid rgb(238, 237, 237);
+    &-item{
+      display: flex;
+      align-items: baseline;
+      padding-left:10px; 
+      
+    }
+  }
+  .more-information{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 5px 2px #ccc;
+    a{
+      padding: 10px;
+      word-wrap: none;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      marrin-top:30px;
+    }
   }
 }
 @media screen and (max-width: 600px) {
   .leftContent {
     display: none;
   }
+}
+.icon-map,.icon-about{
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 8px;
 }

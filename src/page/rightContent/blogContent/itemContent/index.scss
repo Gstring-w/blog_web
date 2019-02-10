@@ -5,6 +5,9 @@
     background-color: #fff;
     border: 1px solid #eee;
     margin-bottom: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+    border-radius: 1px;
     &-title{
         font-size: 16px;
         font-weight: 700;
@@ -40,6 +43,11 @@
             }
         }
     }
+}
+.itemContent:hover{
+    width: 110%;
+    padding: 40px;
+    box-shadow: -3px 0px 1px 2px rgb(131, 130, 130);
 }
 @media screen and (max-width:900px){
     .itemContent-content{

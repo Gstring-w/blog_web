@@ -8,7 +8,7 @@ function getHomeArticleData(){
         return [].slice.call(response.data);
     })
     .catch(err=>{
-        console.log(err)
+        return err;
     })
 }
 

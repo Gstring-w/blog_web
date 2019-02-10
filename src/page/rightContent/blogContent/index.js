@@ -12,8 +12,11 @@ export class BlogContent extends Component {
   async componentDidMount() {
     const { getHomeArticleData } = getData;
     let data = await getHomeArticleData();
+    if(data && data.length !== 0){
+      data = [{title:'error',content:'xxx'},{title:'11',content:'1111'}];
+    }
     this.setState({
-      data,
+        data:data,
     })
   }
   render(){
@@ -52,7 +55,7 @@ export class BlogContent extends Component {
     return (
       <div className='BlogContent-select'>
         {
-          data.map((item,index)=>{
+           data.map((item,index)=>{
             return (
               <React.Fragment key={item + '' + index}>
                 <ItemContent data={item}/>

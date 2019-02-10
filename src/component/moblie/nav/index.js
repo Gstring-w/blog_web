@@ -9,16 +9,16 @@ export default function Nav() {
         首页
       </Menu.Item>
       <Menu.Item key="2">
-        <Icon type="home" />
-        首页
+        <span className='iconfont icon-map' />
+        地图
       </Menu.Item>
       <Menu.Item key="3">
-        <Icon type="home" />
-        首页
+      <span className='iconfont icon-about' />
+        关于
       </Menu.Item>
       <Menu.Item key="4">
-        <Icon type="home" />
-        首页
+      <Icon type="mail" />
+        留言
       </Menu.Item>
     </Menu>
   );
