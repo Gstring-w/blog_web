@@ -12,7 +12,7 @@ export class ItemContent extends Component {
     const { content } = this.props.data;
     const imgReg = /<img.*?(?:>|\/>)/gi;
     let imgArr = content.match(imgReg);
-    console.log(imgArr);
+    // console.log(imgArr);
     if (imgArr !== null) {
       this.setState({
         imgArr
@@ -43,7 +43,7 @@ export class ItemContent extends Component {
     return newDate;
   }
   render() {
-    const { data } = this.props;
+    const { data} = this.props;
     const {user,time,hot,comment,type,star} = data;
     const params = {
       user,time,hot,comment,type,star
